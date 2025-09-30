@@ -11,7 +11,7 @@ load_dotenv()
 #CONFIG
 #=========================
 GEMINI_API_VERSION=os.getenv("GEMINI_API_VERSION","v1beta")
-GEMINI_MODEL=os.getenv("GEMINI_MODEL","gemini-1.5-flash-latest")
+GEMINI_MODEL=os.getenv("GEMINI_MODEL","gemini-2.5-flash-latest")
 GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
 GEMINI_API_URL=(
     f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/models/"
