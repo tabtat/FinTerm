@@ -18,7 +18,7 @@ GEMINI_API_URL=(
     f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/models/"
     f"{GEMINI_MODEL}:generateContent"
 )
-app=FastAPI(title="MCP Server",description="Market Analysis & Prediction Engine",version="1.1")
+app=FastAPI(title="FinTerm - Terminal-Based MCP Server for Stock Market Analysis",description="Market Analysis & Prediction Engine",version="1.1")
 
 #=========================
 #REQUEST MODELS
