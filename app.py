@@ -4,6 +4,7 @@ import httpx
 import os
 import numpy as np
 from dotenv import load_dotenv
+from typing import Union, Optional
 
 load_dotenv()
 
@@ -11,7 +12,7 @@ load_dotenv()
 #CONFIG
 #=========================
 GEMINI_API_VERSION=os.getenv("GEMINI_API_VERSION","v1beta")
-GEMINI_MODEL=os.getenv("GEMINI_MODEL","gemini-2.5-flash-latest")
+GEMINI_MODEL=os.getenv("GEMINI_MODEL","gemini-2.5-flash-lite")
 GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
 GEMINI_API_URL=(
     f"https://generativelanguage.googleapis.com/{GEMINI_API_VERSION}/models/"
@@ -33,9 +34,9 @@ class ChartRequest(BaseModel):
 class PredictionRequest(BaseModel):
     symbol:str
     data:list[dict]
-    method:str|None="ema"
-    horizon:int|None=1
-    ema_span:int|None=10
+    method:Optional[str]="ema"
+    horizon:Optional[int]=1
+    ema_span:Optional[int]=10
 
 class MarketMakerRequest(BaseModel):
     mid_price:float
@@ -44,7 +45,7 @@ class MarketMakerRequest(BaseModel):
     time_horizon:float
     inventory:float
     kappa:float
-    max_spread:float|None=None
+    max_spread:Optional[float]=None
 
 #=========================
 #GEMINI HELPER
